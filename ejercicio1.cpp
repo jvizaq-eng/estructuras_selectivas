@@ -7,6 +7,7 @@ int main() {
     cout << "Ingrese un numero del 1 al 7: ";
     cin >> dia;
 
+    // Evalua el valor exacto introducido mediante un switch
     switch (dia) {
         case 1: cout << "El dia es: Lunes" << endl; break;
         case 2: cout << "El dia es: Martes" << endl; break;
@@ -18,6 +19,7 @@ int main() {
         default: cout << "Error: Numero fuera de rango (1-7)" << endl;
     }
 
+    // Clasifica si es dia util o fin de semana usando if-else
     if (dia >= 1 && dia <= 5) {
         cout << "Tipo: Dia laborable" << endl;
     } else if (dia == 6 || dia == 7) {
