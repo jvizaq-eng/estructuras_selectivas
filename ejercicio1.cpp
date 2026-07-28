@@ -17,5 +17,12 @@ int main() {
         case 7: cout << "El dia es: Domingo" << endl; break;
         default: cout << "Error: Numero fuera de rango (1-7)" << endl;
     }
+
+    if (dia >= 1 && dia <= 5) {
+        cout << "Tipo: Dia laborable" << endl;
+    } else if (dia == 6 || dia == 7) {
+        cout << "Tipo: Fin de semana" << endl;
+    }
+
     return 0;
 }
