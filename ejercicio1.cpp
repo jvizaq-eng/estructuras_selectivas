@@ -1,3 +1,8 @@
+// ============================================
+// Practica de Laboratorio: Estructuras Selectivas
+// Ejercicio 1: Determinacion del dia de la semana
+// ============================================
+
 #include <iostream>
 using namespace std;
 
